@@ -80,7 +80,7 @@ header a {
 }
 
 header .inner {
-  background-color:#2071FE;
+  background-color:#92C228;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -121,7 +121,7 @@ header .inner {
   position: absolute;
   width: 100%;
   height: 10px;
-  background-color: #ccc;
+  background-color: #FFFBC3#ccc;
 }
 
 #menu_btn{
@@ -201,15 +201,18 @@ body.contents_page {/* classにcontents_pageが指定されているbodyタグ *
 ================================================= */
 .top_eye_catch {
   height: 500px;
+  
   color: #fff;
   font-weight: bold;
-  background-image: url(../images/S__3252249.jpg);/* 背景画像 */
+  font-size:32px;
+  text-align: center;
+  background-image: url(../images/workseyecatch.png);/* 背景画像 */
   background-size: cover;/* 背景画像のサイズ 要素いっぱいに表示 */
-  background-position: center;/* 背景画像の位置 */
-  background-attachment:fixed /* スクロールしたときの背景画像の位置 固定 */
+  background-position: center center;/* 背景画像の位置 */
+  background-attachment:fixed;/* スクロールしたときの背景画像の位置 固定 */
   
   /* 上下左右中央テクニック https://ics.media/entry/17522/ */
-  display: fixed;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -314,7 +317,7 @@ reportページ
 
 .report_eye_catch {
   height: 300px;
-  background-image: url(../images/report.jpg);
+  background-image: url(../images/workseyecatch.png);
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -322,8 +325,21 @@ reportページ
   justify-content: center;
   color: #fff;
   font-weight: bold;
+  font-size: 32px;
 }
 
+.foodreport_eye_catch{
+  height: 300px;
+  background-image: url(../images/pizza.png);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 32px;
+}
 .report {
   border: 1px solid #ccc;
   padding: 40px;
